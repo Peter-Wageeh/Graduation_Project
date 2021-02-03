@@ -11,7 +11,12 @@ body {
 }
 
 /* End GLobal Rules */
+/* Start Navbar */
 
+.scrolled {
+  /* background-color: rgba(0, 0, 0, .8); */  /* I added this in bootstrap file css */
+}
+/* End Navbar */
 /* Start Header */
 
 .header {

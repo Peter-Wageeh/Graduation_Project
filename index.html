@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>Composite-Solar Flying Wing</title>
     <meta name="description" content="Graduation Project of 4-th year, Aerospace department, Faculty of Engineering, Cairo University">
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <meta name="author" content="Aerospace Team">
     <meta name="application-name" content="Graduation Project of 4-th year, Aerospace department, Faculty of Engineering, Cairo University">
     <meta name="generator" content="Graduation Project of 4-th year, Aerospace department, Faculty of Engineering, Cairo University">
@@ -14,6 +16,31 @@
 
   </head>
   <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#axit-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Composite & Solar Flying Wing</a>
+        </div>
+        <div class="collapse navbar-collapse" id="axit-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#feat">Features</a></li>
+            <li><a href="#members">Team Members</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#info">Information</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
     <!-- Start Header -->
     <div class="header text-center">
       <div class="overlay">
@@ -28,7 +55,7 @@
     </div>
     <!-- End Header -->
     <!-- Start About Us -->
-    <div class="about-us">
+    <div class="about-us" id="about">
       <div class="container">
         <h2 class="h1 text-center">About Us</h2>
         <h3>Project Name: <span>Optimization and Manufacturing of Fully Composite UAV Powered by Solar Energy</span></h3>
@@ -55,7 +82,7 @@
     </div>
     <!-- End About Us -->
     <!-- Start Features -->
-    <div class="features">
+    <div class="features" id="feat">
       <div class="container">
         <h2 class="h1 text-center">Our Features</h2>
         <div class="feat float-left">
@@ -83,6 +110,9 @@
     <div class="our-works">
       <div class="image float-left">
         <img class="responsive-image" src="images/project/c.png" alt="" />
+      </div>
+      <div class="image float-left">
+        <img class="responsive-image" src="images/project/o.png" alt="" />
       </div>
       <div class="image float-left">
         <img class="responsive-image" src="images/project/i.png" alt="" />
@@ -150,7 +180,7 @@
     </div> -->
     <!-- End Pricing Table -->
     <!-- Start Pricing Table -->
-    <div class="pricing-table text-center">
+    <div class="pricing-table text-center" id="members">
       <div class="container">
         <h2 class="h1">Our Team Members</h2>
         <table class="table">
@@ -277,28 +307,28 @@
     </div>
     <!-- End Pricing Table -->
     <!-- Start What They Say -->
-    <div class="they-say">
+    <div class="they-say" id="work">
       <div class="container">
         <h2 class="h1 text-center">To Download Our Work Choose The Phase you Wanted</h2>
         <div class="person-say float-left">
           <div class="avatar float-left">
             <img class="responsive-image img-circle img-thumbnail" src="images/avatar.jpg" alt="" />
           </div>
-          <h3 class="float-left"><a href="https://drive.google.com/file/d/1U5sLrfTCWpODKH7QdsXrrIQx0lHZ3k1w/view?usp=sharing">1<sup>st</sup>-Phase</a></h3>
+          <h3 class="float-left"><a href="https://drive.google.com/file/d/1U5sLrfTCWpODKH7QdsXrrIQx0lHZ3k1w/view?usp=sharing" target="_blank">1<sup>st</sup>-Phase</a></h3>
           <p class="float-left">It Was in 2010/2011</p>
         </div>
         <div class="person-say float-left">
           <div class="avatar float-left">
             <img class="responsive-image img-circle img-thumbnail" src="images/avatar.jpg" alt="" />
           </div>
-          <h3 class="float-left"><a href="https://drive.google.com/file/d/1ZgAlcoQfPv1217P3vbsHgt1t8NTcjmZU/view?usp=sharing">2<sup>nd</sup>-Phase</a></h3>
+          <h3 class="float-left"><a href="https://drive.google.com/file/d/1ZgAlcoQfPv1217P3vbsHgt1t8NTcjmZU/view?usp=sharing" target="_blank">2<sup>nd</sup>-Phase</a></h3>
           <p class="float-left">It Was in 2019/2020</p>
         </div>
         <div class="person-say float-left">
           <div class="avatar float-left">
             <img class="responsive-image img-circle img-thumbnail" src="images/avatar.jpg" alt="" />
           </div>
-          <h3 class="float-left"><a href="#">3<sup>rd</sup>-Phase</a></h3>
+          <h3 class="float-left"><a href="#" target="_blank">3<sup>rd</sup>-Phase</a></h3>
           <p class="float-left">In Progress Now (2020/2021)</p>
         </div>
       </div>
@@ -306,7 +336,7 @@
     <div class="clearfix"></div>
     <!-- End What They Say -->
     <!-- Start Information -->
-    <div class="information">
+    <div class="information" id="info">
       <div class="container">
         <h2 class="h1 text-center">Project Information</h2>
         <ul class="classic-list info-list">
