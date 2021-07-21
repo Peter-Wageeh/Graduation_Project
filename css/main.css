@@ -515,7 +515,7 @@ margin-right:-15px;margin-left:-15px
   position: absolute;
   color: #FFF;
   z-index: 3;
-  font-size: 70px;
+  font-size: 50px;
   max-width: 900px;
   left: 100px;
   line-height: 1.5
@@ -560,16 +560,49 @@ margin-right:-15px;margin-left:-15px
   background-size: cover;
 }
 
-.slider .carousel-one {
-  background-image: url('../img/tony/03.jpg')
+.slider .carousel-one-one {
+  background-image: url('../images/manufacturing/wing/20210718_214543.jpg')
 }
 
-.slider .carousel-two {
-  background-image: url('../img/tony/12.jpg')
+.slider .carousel-one-two {
+  background-image: url('../images/manufacturing/wing/20210715_210206.jpg')
 }
 
-.slider .carousel-three {
-  background-image: url('../img/tony/06.jpg')
+.slider .carousel-one-three {
+  background-image: url('../images/manufacturing/wing/IMG-20210628-WA0004.jpg')
+}
+.slider .carousel-two-one {
+  background-image: url('../images/manufacturing/spar/20210717_171727.jpg')
+}
+
+.slider .carousel-two-two {
+  background-image: url('../images/manufacturing/spar/20210715_130405.jpg')
+}
+
+.slider .carousel-two-three {
+  background-image: url('../images/manufacturing/spar/20210713_175804.jpg')
+}
+.slider .carousel-three-one {
+  background-image: url('../images/manufacturing/ribs/20210718_101311.jpg')
+}
+
+.slider .carousel-three-two {
+  background-image: url('../images/manufacturing/ribs/20210718_101223.jpg')
+}
+
+.slider .carousel-three-three {
+  background-image: url('../images/manufacturing/ribs/20210717_162530.jpg')
+}
+.slider .carousel-four-one {
+  background-image: url('../images/manufacturing/experiment/20210706_190803.jpg')
+}
+
+.slider .carousel-four-two {
+  background-image: url('../images/manufacturing/experiment/20210706_133321.jpg')
+}
+
+.slider .carousel-four-three {
+  background-image: url('../images/manufacturing/experiment/20210602_165206.jpg')
 }
 
 .slider .carousel-indicators li {
