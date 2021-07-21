@@ -571,6 +571,12 @@ margin-right:-15px;margin-left:-15px
 .slider .carousel-one-three {
   background-image: url('../images/manufacturing/wing/IMG-20210628-WA0004.jpg')
 }
+.slider .carousel-one-four {
+  background-image: url('../images/manufacturing/wing/20210715_210220.jpg')
+}
+.slider .carousel-one-five {
+  background-image: url('../images/manufacturing/wing/20210718_195904.jpg')
+}
 .slider .carousel-two-one {
   background-image: url('../images/manufacturing/spar/20210717_171727.jpg')
 }
@@ -581,6 +587,9 @@ margin-right:-15px;margin-left:-15px
 
 .slider .carousel-two-three {
   background-image: url('../images/manufacturing/spar/20210713_175804.jpg')
+}
+.slider .carousel-two-four {
+  background-image: url('../images/manufacturing/spar/20210713_194251.jpg')
 }
 .slider .carousel-three-one {
   background-image: url('../images/manufacturing/ribs/20210718_101311.jpg')
@@ -593,6 +602,9 @@ margin-right:-15px;margin-left:-15px
 .slider .carousel-three-three {
   background-image: url('../images/manufacturing/ribs/20210717_162530.jpg')
 }
+.slider .carousel-three-four {
+  background-image: url('../images/manufacturing/ribs/20210718_101236.jpg')
+}
 .slider .carousel-four-one {
   background-image: url('../images/manufacturing/experiment/20210706_190803.jpg')
 }
@@ -603,6 +615,15 @@ margin-right:-15px;margin-left:-15px
 
 .slider .carousel-four-three {
   background-image: url('../images/manufacturing/experiment/20210602_165206.jpg')
+}
+.slider .carousel-four-four {
+  background-image: url('../images/manufacturing/experiment/20210602_165310.jpg')
+}
+.slider .carousel-four-five {
+  background-image: url('../images/manufacturing/experiment/20210706_133233.jpg')
+}
+.slider .carousel-four-six {
+  background-image: url('../images/manufacturing/experiment/20210706_134359.jpg')
 }
 
 .slider .carousel-indicators li {
